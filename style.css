@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+}
+header a {
+    font-size: 20px;
+    text-decoration: double;
+}
+nav a {
+    font-size: 20px;
+    text-decoration: dotted;
+}
+main img {
+    width: 450px;
+    height: 300px;
+}
+h1 {
+    color: darkgoldenrod;
+    border: 5px groove darkgoldenrod;
+    text-align: center;
+   background-image: linear-gradient(to right, aqua, white, blue);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px blue;
+    margin-bottom: 40px;
+    padding: 20px 0px 20px 0px;
+}
+li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+ul {
+    border: 10px groove darkgoldenrod;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right, aqua, white, blue);
+}
+
+header a:hover {
+    color: darkgoldenrod;
+}
+nav a:hover {
+    border-bottom: 5px dotted #866FD7;
+}
+.link-text {
+    text-decoration: dotted;
+    border-bottom: 10px;
+}
+ul a:hover {
+    border-bottom: 5px dotted darkgoldenrod;
+}
+.h2 {
+    border: 5px groove darkgoldenrod;
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, aqua, white, blue);
+    box-shadow: 20px 10px 5px 5px blue;
+    color: darkgoldenrod;
+    margin-top: 50px;
+    padding: 20px 0px 20px 0px;
+}
+ol {
+    border: 10px groove darkgoldenrod;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, aqua, white, blue);
+}
+.tg {
+    border: 4px groove #1F0772;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+ .h3{
+    font-size: 30px;
+    padding-left: 15px;
+}
+header a {
+    text-decoration: dashed;
+    background-color: aqua;
+    border: 3px groove blue;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    background-image: linear-gradient(to right, aqua, white, blue);
+    color: darkgoldenrod
+}
+footer {
+    margin-top: 50px;
+    border: 10px groove darkgoldenrod;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, aqua, white, blue);
+}
+header {
+    padding: 10px 10px 10px 10px;
+}
+header a:hover {
+    box-shadow: 5px 5px 5px 0px blue;
+    transition: 1s ease-out;
+}
+.info {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+.sss {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+a {
+    color: darkgoldenrod;
+}
+.dumay {
+    display: flex;
+  justify-content: center; /* по горизонтали */
+  align-items: center;     /* по вертикали (если есть высота) */
+}
+img {
+    border: 5px groove darkgoldenrod;
+    border-radius: 10px;
+}
